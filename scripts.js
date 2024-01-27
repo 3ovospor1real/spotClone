@@ -13,8 +13,6 @@ function displayResults(result) {
     resultPlaylist.classList.add("hidden");
     const artistsName = document.querySelector('#artist-name');
     const artistsImg = document.querySelector('#artist-img');
-    console.log(artistsName, artistsImg)
-
 
     result.forEach(e => {
         artistsName.innerText = e.name;
