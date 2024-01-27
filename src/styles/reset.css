@@ -1,0 +1,95 @@
+/* CSS Reset */
+
+/* Box sizing rule to include padding and border in element's total width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+code,
+em,
+img,
+small,
+strong,
+sub,
+sup,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+button,
+input,
+select,
+textarea,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Reset list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset font styles for various elements */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Reset anchor text decoration and color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset image border and display properties */
+img {
+  border: 0;
+  display: block;
+}
+
+/* Reset table border-collapse property */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
