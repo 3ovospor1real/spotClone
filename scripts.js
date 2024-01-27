@@ -3,7 +3,7 @@ const resultArtists = document.querySelector('#result-artists')
 const resultPlaylist = document.querySelector('#results-playlist')
 
 function request (searchTerm) {
-    const url = `http://localhost:3000/artists?name_like=${searchTerm}`;
+    const url = `https://raw.githubusercontent.com/3ovospor1real/spotClone/main/api-artists/artists?name_like=${searchTerm}`;
     fetch(url)
     .then(response => response.json())
     .then(json => displayResults(json))
